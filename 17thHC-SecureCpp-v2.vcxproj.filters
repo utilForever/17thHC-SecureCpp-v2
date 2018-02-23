@@ -27,5 +27,8 @@
     <ClCompile Include="divideByZero.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="floatingPointPrecision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
