@@ -42,5 +42,8 @@
     <ClCompile Include="ASCIIUnicode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="endian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
