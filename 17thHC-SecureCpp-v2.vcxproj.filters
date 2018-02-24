@@ -30,5 +30,8 @@
     <ClCompile Include="floatingPointPrecision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="floatingPointConversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
