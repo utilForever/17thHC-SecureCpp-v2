@@ -36,5 +36,8 @@
     <ClCompile Include="domainRangeError.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="userInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
