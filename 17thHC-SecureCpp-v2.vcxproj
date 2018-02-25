@@ -18,6 +18,45 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="divideByZero.cpp" />
+    <ClCompile Include="domainRangeError.cpp" />
+    <ClCompile Include="endian.cpp" />
+    <ClCompile Include="floatingPointConversion.cpp" />
+    <ClCompile Include="floatingPointPrecision.cpp" />
+    <ClCompile Include="intConversion.cpp" />
+    <ClCompile Include="Rules\CON51-CPP.cpp" />
+    <ClCompile Include="Rules\CTR52-CPP.cpp" />
+    <ClCompile Include="Rules\CTR55-CPP.cpp" />
+    <ClCompile Include="Rules\DCL59-CPP-func_f.cpp" />
+    <ClCompile Include="Rules\DCL59-CPP-func_g.cpp" />
+    <ClCompile Include="Rules\DCL59-CPP.cpp" />
+    <ClCompile Include="Rules\ERR54-CPP.cpp" />
+    <ClCompile Include="Rules\ERR55-CPP.cpp" />
+    <ClCompile Include="Rules\ERR56-CPP.cpp" />
+    <ClCompile Include="Rules\EXP53-CPP.cpp" />
+    <ClCompile Include="Rules\EXP63-CPP.cpp" />
+    <ClCompile Include="Rules\FIO50-CPP.cpp" />
+    <ClCompile Include="Rules\INT50-CPP.cpp" />
+    <ClCompile Include="Rules\MEM51-CPP.cpp" />
+    <ClCompile Include="Rules\MEM56-CPP.cpp" />
+    <ClCompile Include="Rules\MSC50-CPP.cpp" />
+    <ClCompile Include="Rules\MSC51-CPP.cpp" />
+    <ClCompile Include="Rules\MSC52-CPP.cpp" />
+    <ClCompile Include="Rules\OOP52-CPP.cpp" />
+    <ClCompile Include="Rules\OOP55-CPP.cpp" />
+    <ClCompile Include="Rules\OOP57-CPP.cpp" />
+    <ClCompile Include="Rules\OOP58-CPP.cpp" />
+    <ClCompile Include="Rules\STR50-CPP.cpp" />
+    <ClCompile Include="Rules\STR51-CPP.cpp" />
+    <ClCompile Include="signedIntOverflow.cpp" />
+    <ClCompile Include="TOCTOU.cpp" />
+    <ClCompile Include="unsignedIntWarp.cpp" />
+    <ClCompile Include="userInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rules\DCL59-CPP-unnamed_namespace.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{5A71605B-474B-4584-BF11-AFA7F9F5BECC}</ProjectGuid>
@@ -143,41 +182,6 @@
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="ASCIIUnicode.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="divideByZero.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="domainRangeError.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="endian.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="floatingPointConversion.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="floatingPointPrecision.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="intConversion.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="signedIntOverflow.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TOCTOU.cpp" />
-    <ClCompile Include="unsignedIntWarp.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="userInput.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

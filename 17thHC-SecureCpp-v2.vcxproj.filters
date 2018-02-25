@@ -1,52 +1,126 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Integer">
+      <UniqueIdentifier>{a079fd68-8bdd-4428-be6b-1502ed1e31dd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="Floating Point">
+      <UniqueIdentifier>{49e8036b-658f-4be4-9b07-57cbe075a1e4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="I/O">
+      <UniqueIdentifier>{36c7c628-8fd5-4d71-957f-7db9c7c815b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rules">
+      <UniqueIdentifier>{0e1e6f7c-da1b-4bb5-96ed-c689c85e64b4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="unsignedIntWarp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="signedIntOverflow.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="divideByZero.cpp">
+      <Filter>Integer</Filter>
     </ClCompile>
     <ClCompile Include="intConversion.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Integer</Filter>
     </ClCompile>
-    <ClCompile Include="divideByZero.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="signedIntOverflow.cpp">
+      <Filter>Integer</Filter>
     </ClCompile>
-    <ClCompile Include="floatingPointPrecision.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="floatingPointConversion.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="unsignedIntWarp.cpp">
+      <Filter>Integer</Filter>
     </ClCompile>
     <ClCompile Include="domainRangeError.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Floating Point</Filter>
     </ClCompile>
-    <ClCompile Include="userInput.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="floatingPointConversion.cpp">
+      <Filter>Floating Point</Filter>
     </ClCompile>
-    <ClCompile Include="ASCIIUnicode.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="floatingPointPrecision.cpp">
+      <Filter>Floating Point</Filter>
     </ClCompile>
     <ClCompile Include="endian.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>I/O</Filter>
     </ClCompile>
     <ClCompile Include="TOCTOU.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>I/O</Filter>
     </ClCompile>
+    <ClCompile Include="userInput.cpp">
+      <Filter>I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\CON51-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\CTR52-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\CTR55-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\DCL59-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\DCL59-CPP-func_f.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\DCL59-CPP-func_g.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\ERR54-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\ERR55-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\ERR56-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\EXP53-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\EXP63-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\FIO50-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\INT50-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\MEM51-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\MEM56-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\MSC50-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\MSC51-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\MSC52-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\OOP52-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\OOP55-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\OOP57-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\OOP58-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\STR50-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\STR51-CPP.cpp">
+      <Filter>Rules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rules\DCL59-CPP-unnamed_namespace.h">
+      <Filter>Rules</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
