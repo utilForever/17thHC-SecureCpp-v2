@@ -22,6 +22,8 @@
     <ClCompile Include="divideByZero.cpp" />
     <ClCompile Include="domainRangeError.cpp" />
     <ClCompile Include="endian.cpp" />
+    <ClCompile Include="Exercises\Console.cpp" />
+    <ClCompile Include="Exercises\main.cpp" />
     <ClCompile Include="floatingPointConversion.cpp" />
     <ClCompile Include="floatingPointPrecision.cpp" />
     <ClCompile Include="intConversion.cpp" />
@@ -55,6 +57,7 @@
     <ClCompile Include="userInput.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Exercises\Console.h" />
     <ClInclude Include="Rules\DCL59-CPP-unnamed_namespace.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

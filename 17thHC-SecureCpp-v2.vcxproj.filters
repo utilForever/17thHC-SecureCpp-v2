@@ -13,6 +13,9 @@
     <Filter Include="Rules">
       <UniqueIdentifier>{0e1e6f7c-da1b-4bb5-96ed-c689c85e64b4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Exercises">
+      <UniqueIdentifier>{e6e37886-359b-4a9d-b383-80b44f79b2d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="divideByZero.cpp">
@@ -117,10 +120,19 @@
     <ClCompile Include="Rules\STR51-CPP.cpp">
       <Filter>Rules</Filter>
     </ClCompile>
+    <ClCompile Include="Exercises\Console.cpp">
+      <Filter>Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercises\main.cpp">
+      <Filter>Exercises</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Rules\DCL59-CPP-unnamed_namespace.h">
       <Filter>Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="Exercises\Console.h">
+      <Filter>Exercises</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
